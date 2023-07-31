@@ -1,0 +1,7 @@
+syntax = "proto3";
+package belkyc.belkyc;
+
+option go_package = "belkyc/x/belkyc/types";
+
+// Msg defines the Msg service.
+service Msg {}

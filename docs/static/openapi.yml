@@ -6,7 +6,7 @@ info:
 paths:
   /belkyc/belkyc/kyc:
     get:
-      operationId: belkyc/x/belkycKycAll
+      operationId: BelkycBelkycKycAll
       responses:
         '200':
           description: A successful response.
@@ -132,7 +132,7 @@ paths:
   /belkyc/belkyc/kyc/{address}:
     get:
       summary: Queries a list of Kyc items.
-      operationId: belkyc/x/belkycKyc
+      operationId: BelkycBelkycKyc
       responses:
         '200':
           description: A successful response.
@@ -176,7 +176,7 @@ paths:
   /belkyc/belkyc/params:
     get:
       summary: Parameters queries the parameters of the module.
-      operationId: belkyc/x/belkycParams
+      operationId: BelkycBelkycParams
       responses:
         '200':
           description: A successful response.

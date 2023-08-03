@@ -18,7 +18,7 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/stretchr/testify/require"
 
-	"belkyc/app"
+	"github.com/anshulWeb3/belkyc/app"
 )
 
 type (

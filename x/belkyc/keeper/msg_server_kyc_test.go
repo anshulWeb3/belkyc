@@ -8,9 +8,10 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/stretchr/testify/require"
 
-	keepertest "belkyc/testutil/keeper"
-	"belkyc/x/belkyc/keeper"
-	"belkyc/x/belkyc/types"
+	keepertest "github.com/anshulWeb3/belkyc/testutil/keeper"
+
+	"github.com/anshulWeb3/belkyc/x/belkyc/keeper"
+	"github.com/anshulWeb3/belkyc/x/belkyc/types"
 )
 
 // Prevent strconv unused error

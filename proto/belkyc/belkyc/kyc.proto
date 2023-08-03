@@ -1,7 +1,7 @@
 syntax = "proto3";
 package belkyc.belkyc;
 
-option go_package = "belkyc/x/belkyc/types";
+option go_package = "github.com/anshulWeb3/belkyc/x/belkyc/types";
 
 message Kyc {
   string address = 1; 

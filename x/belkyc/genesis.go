@@ -1,8 +1,8 @@
 package belkyc
 
 import (
-	"belkyc/x/belkyc/keeper"
-	"belkyc/x/belkyc/types"
+	"github.com/anshulWeb3/belkyc/x/belkyc/keeper"
+	"github.com/anshulWeb3/belkyc/x/belkyc/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

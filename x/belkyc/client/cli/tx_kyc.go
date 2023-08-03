@@ -1,7 +1,7 @@
 package cli
 
 import (
-	"belkyc/x/belkyc/types"
+	"github.com/anshulWeb3/belkyc/x/belkyc/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/client/tx"

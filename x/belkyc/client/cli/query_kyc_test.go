@@ -12,10 +12,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"belkyc/testutil/network"
-	"belkyc/testutil/nullify"
-	"belkyc/x/belkyc/client/cli"
-	"belkyc/x/belkyc/types"
+	"github.com/anshulWeb3/belkyc/testutil/network"
+	"github.com/anshulWeb3/belkyc/testutil/nullify"
+
+	"github.com/anshulWeb3/belkyc/x/belkyc/client/cli"
+	"github.com/anshulWeb3/belkyc/x/belkyc/types"
 )
 
 // Prevent strconv unused error

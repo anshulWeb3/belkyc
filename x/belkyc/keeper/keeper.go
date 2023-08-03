@@ -9,7 +9,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	"belkyc/x/belkyc/types"
+	"github.com/anshulWeb3/belkyc/x/belkyc/types"
 )
 
 type (

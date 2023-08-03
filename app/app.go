@@ -110,13 +110,14 @@ import (
 	ibctm "github.com/cosmos/ibc-go/v7/modules/light-clients/07-tendermint"
 	"github.com/spf13/cast"
 
-	belkycmodule "belkyc/x/belkyc"
-	belkycmodulekeeper "belkyc/x/belkyc/keeper"
-	belkycmoduletypes "belkyc/x/belkyc/types"
+	belkycmodule "github.com/anshulWeb3/belkyc/x/belkyc"
+	belkycmodulekeeper "github.com/anshulWeb3/belkyc/x/belkyc/keeper"
+	belkycmoduletypes "github.com/anshulWeb3/belkyc/x/belkyc/types"
+
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 
-	appparams "belkyc/app/params"
-	"belkyc/docs"
+	appparams "github.com/anshulWeb3/belkyc/app/params"
+	"github.com/anshulWeb3/belkyc/docs"
 )
 
 const (

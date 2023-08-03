@@ -3,9 +3,10 @@ package belkyc
 import (
 	"math/rand"
 
-	"belkyc/testutil/sample"
-	belkycsimulation "belkyc/x/belkyc/simulation"
-	"belkyc/x/belkyc/types"
+	"github.com/anshulWeb3/belkyc/testutil/sample"
+
+	belkycsimulation "github.com/anshulWeb3/belkyc/x/belkyc/simulation"
+	"github.com/anshulWeb3/belkyc/x/belkyc/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"

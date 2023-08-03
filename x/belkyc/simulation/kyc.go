@@ -4,9 +4,9 @@ import (
 	"math/rand"
 	"strconv"
 
-	"belkyc/x/belkyc/keeper"
-	"belkyc/x/belkyc/types"
 	simappparams "cosmossdk.io/simapp/params"
+	"github.com/anshulWeb3/belkyc/x/belkyc/keeper"
+	"github.com/anshulWeb3/belkyc/x/belkyc/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"

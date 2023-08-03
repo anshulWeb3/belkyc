@@ -3,7 +3,7 @@ package types
 import (
 	"testing"
 
-	"belkyc/testutil/sample"
+	"github.com/anshulWeb3/belkyc/testutil/sample"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/stretchr/testify/require"
 )

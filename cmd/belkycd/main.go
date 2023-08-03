@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"belkyc/app"
-	"belkyc/cmd/belkycd/cmd"
+	"github.com/anshulWeb3/belkyc/app"
+	"github.com/anshulWeb3/belkyc/cmd/belkycd/cmd"
 )
 
 func main() {

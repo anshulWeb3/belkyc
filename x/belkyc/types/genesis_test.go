@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"belkyc/x/belkyc/types"
+	"github.com/anshulWeb3/belkyc/x/belkyc/types"
 	"github.com/stretchr/testify/require"
 )
 

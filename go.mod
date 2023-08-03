@@ -1,6 +1,6 @@
-module belkyc
+module github.com/anshulWeb3/belkyc
 
-go 1.19
+go 1.20
 
 require (
 	cosmossdk.io/api v0.3.1

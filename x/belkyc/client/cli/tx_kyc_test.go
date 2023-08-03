@@ -12,8 +12,9 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/stretchr/testify/require"
 
-	"belkyc/testutil/network"
-	"belkyc/x/belkyc/client/cli"
+	"github.com/anshulWeb3/belkyc/testutil/network"
+
+	"github.com/anshulWeb3/belkyc/x/belkyc/client/cli"
 )
 
 // Prevent strconv unused error

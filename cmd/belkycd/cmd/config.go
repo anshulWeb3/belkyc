@@ -3,7 +3,7 @@ package cmd
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"belkyc/app"
+	"github.com/anshulWeb3/belkyc/app"
 )
 
 func initSDKConfig() {

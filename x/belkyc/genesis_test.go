@@ -3,10 +3,11 @@ package belkyc_test
 import (
 	"testing"
 
-	keepertest "belkyc/testutil/keeper"
-	"belkyc/testutil/nullify"
-	"belkyc/x/belkyc"
-	"belkyc/x/belkyc/types"
+	keepertest "github.com/anshulWeb3/belkyc/testutil/keeper"
+	"github.com/anshulWeb3/belkyc/testutil/nullify"
+
+	"github.com/anshulWeb3/belkyc/x/belkyc"
+	"github.com/anshulWeb3/belkyc/x/belkyc/types"
 	"github.com/stretchr/testify/require"
 )
 

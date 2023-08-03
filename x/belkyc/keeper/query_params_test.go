@@ -3,8 +3,9 @@ package keeper_test
 import (
 	"testing"
 
-	testkeeper "belkyc/testutil/keeper"
-	"belkyc/x/belkyc/types"
+	testkeeper "github.com/anshulWeb3/belkyc/testutil/keeper"
+
+	"github.com/anshulWeb3/belkyc/x/belkyc/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

@@ -4,9 +4,10 @@ import (
 	"context"
 	"testing"
 
-	keepertest "belkyc/testutil/keeper"
-	"belkyc/x/belkyc/keeper"
-	"belkyc/x/belkyc/types"
+	keepertest "github.com/anshulWeb3/belkyc/testutil/keeper"
+
+	"github.com/anshulWeb3/belkyc/x/belkyc/keeper"
+	"github.com/anshulWeb3/belkyc/x/belkyc/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

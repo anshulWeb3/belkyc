@@ -10,9 +10,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	keepertest "belkyc/testutil/keeper"
-	"belkyc/testutil/nullify"
-	"belkyc/x/belkyc/types"
+	keepertest "github.com/anshulWeb3/belkyc/testutil/keeper"
+	"github.com/anshulWeb3/belkyc/testutil/nullify"
+
+	"github.com/anshulWeb3/belkyc/x/belkyc/types"
 )
 
 // Prevent strconv unused error

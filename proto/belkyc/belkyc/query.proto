@@ -8,7 +8,7 @@ import "cosmos/base/query/v1beta1/pagination.proto";
 import "belkyc/belkyc/params.proto";
 import "belkyc/belkyc/kyc.proto";
 
-option go_package = "belkyc/x/belkyc/types";
+option go_package = "github.com/anshulWeb3/belkyc/x/belkyc/types";
 
 // Query defines the gRPC querier service.
 service Query {

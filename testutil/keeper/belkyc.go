@@ -3,8 +3,8 @@ package keeper
 import (
 	"testing"
 
-	"belkyc/x/belkyc/keeper"
-	"belkyc/x/belkyc/types"
+	"github.com/anshulWeb3/belkyc/x/belkyc/keeper"
+	"github.com/anshulWeb3/belkyc/x/belkyc/types"
 	tmdb "github.com/cometbft/cometbft-db"
 	"github.com/cometbft/cometbft/libs/log"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"

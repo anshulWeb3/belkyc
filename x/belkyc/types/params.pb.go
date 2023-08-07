@@ -60,7 +60,7 @@ func (m *Params) XXX_DiscardUnknown() {
 var xxx_messageInfo_Params proto.InternalMessageInfo
 
 func init() {
-	proto.RegisterType((*Params)(nil), "belkyc.belkyc.Params")
+	proto.RegisterType((*Params)(nil), "cosmos.belkyc.Params")
 }
 
 func init() { proto.RegisterFile("belkyc/belkyc/params.proto", fileDescriptor_65086274037e08c8) }

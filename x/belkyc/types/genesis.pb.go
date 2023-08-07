@@ -77,7 +77,7 @@ func (m *GenesisState) GetKycList() []Kyc {
 }
 
 func init() {
-	proto.RegisterType((*GenesisState)(nil), "belkyc.belkyc.GenesisState")
+	proto.RegisterType((*GenesisState)(nil), "cosmos.belkyc.GenesisState")
 }
 
 func init() { proto.RegisterFile("belkyc/belkyc/genesis.proto", fileDescriptor_372f1b8c27a8e26c) }

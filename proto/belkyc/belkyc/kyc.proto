@@ -1,5 +1,5 @@
 syntax = "proto3";
-package belkyc.belkyc;
+package cosmos.belkyc;
 
 option go_package = "github.com/anshulWeb3/belkyc/x/belkyc/types";
 

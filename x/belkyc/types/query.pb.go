@@ -298,12 +298,12 @@ func (m *QueryAllKycResponse) GetPagination() *query.PageResponse {
 }
 
 func init() {
-	proto.RegisterType((*QueryParamsRequest)(nil), "belkyc.belkyc.QueryParamsRequest")
-	proto.RegisterType((*QueryParamsResponse)(nil), "belkyc.belkyc.QueryParamsResponse")
-	proto.RegisterType((*QueryGetKycRequest)(nil), "belkyc.belkyc.QueryGetKycRequest")
-	proto.RegisterType((*QueryGetKycResponse)(nil), "belkyc.belkyc.QueryGetKycResponse")
-	proto.RegisterType((*QueryAllKycRequest)(nil), "belkyc.belkyc.QueryAllKycRequest")
-	proto.RegisterType((*QueryAllKycResponse)(nil), "belkyc.belkyc.QueryAllKycResponse")
+	proto.RegisterType((*QueryParamsRequest)(nil), "cosmos.belkyc.QueryParamsRequest")
+	proto.RegisterType((*QueryParamsResponse)(nil), "cosmos.belkyc.QueryParamsResponse")
+	proto.RegisterType((*QueryGetKycRequest)(nil), "cosmos.belkyc.QueryGetKycRequest")
+	proto.RegisterType((*QueryGetKycResponse)(nil), "cosmos.belkyc.QueryGetKycResponse")
+	proto.RegisterType((*QueryAllKycRequest)(nil), "cosmos.belkyc.QueryAllKycRequest")
+	proto.RegisterType((*QueryAllKycResponse)(nil), "cosmos.belkyc.QueryAllKycResponse")
 }
 
 func init() { proto.RegisterFile("belkyc/belkyc/query.proto", fileDescriptor_e34358722b2b3c0c) }
@@ -371,7 +371,7 @@ func NewQueryClient(cc grpc1.ClientConn) QueryClient {
 
 func (c *queryClient) Params(ctx context.Context, in *QueryParamsRequest, opts ...grpc.CallOption) (*QueryParamsResponse, error) {
 	out := new(QueryParamsResponse)
-	err := c.cc.Invoke(ctx, "/belkyc.belkyc.Query/Params", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/cosmos.belkyc.Query/Params", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -380,7 +380,7 @@ func (c *queryClient) Params(ctx context.Context, in *QueryParamsRequest, opts .
 
 func (c *queryClient) Kyc(ctx context.Context, in *QueryGetKycRequest, opts ...grpc.CallOption) (*QueryGetKycResponse, error) {
 	out := new(QueryGetKycResponse)
-	err := c.cc.Invoke(ctx, "/belkyc.belkyc.Query/Kyc", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/cosmos.belkyc.Query/Kyc", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -389,7 +389,7 @@ func (c *queryClient) Kyc(ctx context.Context, in *QueryGetKycRequest, opts ...g
 
 func (c *queryClient) KycAll(ctx context.Context, in *QueryAllKycRequest, opts ...grpc.CallOption) (*QueryAllKycResponse, error) {
 	out := new(QueryAllKycResponse)
-	err := c.cc.Invoke(ctx, "/belkyc.belkyc.Query/KycAll", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/cosmos.belkyc.Query/KycAll", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -433,7 +433,7 @@ func _Query_Params_Handler(srv interface{}, ctx context.Context, dec func(interf
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/belkyc.belkyc.Query/Params",
+		FullMethod: "/cosmos.belkyc.Query/Params",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(QueryServer).Params(ctx, req.(*QueryParamsRequest))
@@ -451,7 +451,7 @@ func _Query_Kyc_Handler(srv interface{}, ctx context.Context, dec func(interface
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/belkyc.belkyc.Query/Kyc",
+		FullMethod: "/cosmos.belkyc.Query/Kyc",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(QueryServer).Kyc(ctx, req.(*QueryGetKycRequest))
@@ -469,7 +469,7 @@ func _Query_KycAll_Handler(srv interface{}, ctx context.Context, dec func(interf
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/belkyc.belkyc.Query/KycAll",
+		FullMethod: "/cosmos.belkyc.Query/KycAll",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(QueryServer).KycAll(ctx, req.(*QueryAllKycRequest))
@@ -478,7 +478,7 @@ func _Query_KycAll_Handler(srv interface{}, ctx context.Context, dec func(interf
 }
 
 var _Query_serviceDesc = grpc.ServiceDesc{
-	ServiceName: "belkyc.belkyc.Query",
+	ServiceName: "cosmos.belkyc.Query",
 	HandlerType: (*QueryServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{

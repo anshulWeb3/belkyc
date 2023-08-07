@@ -308,12 +308,12 @@ func (m *MsgDeleteKycResponse) XXX_DiscardUnknown() {
 var xxx_messageInfo_MsgDeleteKycResponse proto.InternalMessageInfo
 
 func init() {
-	proto.RegisterType((*MsgCreateKyc)(nil), "belkyc.belkyc.MsgCreateKyc")
-	proto.RegisterType((*MsgCreateKycResponse)(nil), "belkyc.belkyc.MsgCreateKycResponse")
-	proto.RegisterType((*MsgUpdateKyc)(nil), "belkyc.belkyc.MsgUpdateKyc")
-	proto.RegisterType((*MsgUpdateKycResponse)(nil), "belkyc.belkyc.MsgUpdateKycResponse")
-	proto.RegisterType((*MsgDeleteKyc)(nil), "belkyc.belkyc.MsgDeleteKyc")
-	proto.RegisterType((*MsgDeleteKycResponse)(nil), "belkyc.belkyc.MsgDeleteKycResponse")
+	proto.RegisterType((*MsgCreateKyc)(nil), "cosmos.belkyc.MsgCreateKyc")
+	proto.RegisterType((*MsgCreateKycResponse)(nil), "cosmos.belkyc.MsgCreateKycResponse")
+	proto.RegisterType((*MsgUpdateKyc)(nil), "cosmos.belkyc.MsgUpdateKyc")
+	proto.RegisterType((*MsgUpdateKycResponse)(nil), "cosmos.belkyc.MsgUpdateKycResponse")
+	proto.RegisterType((*MsgDeleteKyc)(nil), "cosmos.belkyc.MsgDeleteKyc")
+	proto.RegisterType((*MsgDeleteKycResponse)(nil), "cosmos.belkyc.MsgDeleteKycResponse")
 }
 
 func init() { proto.RegisterFile("belkyc/belkyc/tx.proto", fileDescriptor_424c6e7c359eb862) }
@@ -367,7 +367,7 @@ func NewMsgClient(cc grpc1.ClientConn) MsgClient {
 
 func (c *msgClient) CreateKyc(ctx context.Context, in *MsgCreateKyc, opts ...grpc.CallOption) (*MsgCreateKycResponse, error) {
 	out := new(MsgCreateKycResponse)
-	err := c.cc.Invoke(ctx, "/belkyc.belkyc.Msg/CreateKyc", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/cosmos.belkyc.Msg/CreateKyc", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -376,7 +376,7 @@ func (c *msgClient) CreateKyc(ctx context.Context, in *MsgCreateKyc, opts ...grp
 
 func (c *msgClient) UpdateKyc(ctx context.Context, in *MsgUpdateKyc, opts ...grpc.CallOption) (*MsgUpdateKycResponse, error) {
 	out := new(MsgUpdateKycResponse)
-	err := c.cc.Invoke(ctx, "/belkyc.belkyc.Msg/UpdateKyc", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/cosmos.belkyc.Msg/UpdateKyc", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -385,7 +385,7 @@ func (c *msgClient) UpdateKyc(ctx context.Context, in *MsgUpdateKyc, opts ...grp
 
 func (c *msgClient) DeleteKyc(ctx context.Context, in *MsgDeleteKyc, opts ...grpc.CallOption) (*MsgDeleteKycResponse, error) {
 	out := new(MsgDeleteKycResponse)
-	err := c.cc.Invoke(ctx, "/belkyc.belkyc.Msg/DeleteKyc", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/cosmos.belkyc.Msg/DeleteKyc", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -427,7 +427,7 @@ func _Msg_CreateKyc_Handler(srv interface{}, ctx context.Context, dec func(inter
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/belkyc.belkyc.Msg/CreateKyc",
+		FullMethod: "/cosmos.belkyc.Msg/CreateKyc",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(MsgServer).CreateKyc(ctx, req.(*MsgCreateKyc))
@@ -445,7 +445,7 @@ func _Msg_UpdateKyc_Handler(srv interface{}, ctx context.Context, dec func(inter
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/belkyc.belkyc.Msg/UpdateKyc",
+		FullMethod: "/cosmos.belkyc.Msg/UpdateKyc",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(MsgServer).UpdateKyc(ctx, req.(*MsgUpdateKyc))
@@ -463,7 +463,7 @@ func _Msg_DeleteKyc_Handler(srv interface{}, ctx context.Context, dec func(inter
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/belkyc.belkyc.Msg/DeleteKyc",
+		FullMethod: "/cosmos.belkyc.Msg/DeleteKyc",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(MsgServer).DeleteKyc(ctx, req.(*MsgDeleteKyc))
@@ -472,7 +472,7 @@ func _Msg_DeleteKyc_Handler(srv interface{}, ctx context.Context, dec func(inter
 }
 
 var _Msg_serviceDesc = grpc.ServiceDesc{
-	ServiceName: "belkyc.belkyc.Msg",
+	ServiceName: "cosmos.belkyc.Msg",
 	HandlerType: (*MsgServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{

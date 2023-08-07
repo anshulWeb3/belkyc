@@ -46643,7 +46643,7 @@ paths:
       tags:
         - Query
 definitions:
-  belkyc.belkyc.Kyc:
+  cosmos.belkyc.Kyc:
     type: object
     properties:
       address:
@@ -46652,16 +46652,16 @@ definitions:
         type: boolean
       creator:
         type: string
-  belkyc.belkyc.MsgCreateKycResponse:
+  cosmos.belkyc.MsgCreateKycResponse:
     type: object
-  belkyc.belkyc.MsgDeleteKycResponse:
+  cosmos.belkyc.MsgDeleteKycResponse:
     type: object
-  belkyc.belkyc.MsgUpdateKycResponse:
+  cosmos.belkyc.MsgUpdateKycResponse:
     type: object
-  belkyc.belkyc.Params:
+  cosmos.belkyc.Params:
     type: object
     description: Params defines the parameters for the module.
-  belkyc.belkyc.QueryAllKycResponse:
+  cosmos.belkyc.QueryAllKycResponse:
     type: object
     properties:
       kyc:
@@ -46701,7 +46701,7 @@ definitions:
                    repeated Bar results = 1;
                    PageResponse page = 2;
            }
-  belkyc.belkyc.QueryGetKycResponse:
+  cosmos.belkyc.QueryGetKycResponse:
     type: object
     properties:
       kyc:
@@ -46713,7 +46713,7 @@ definitions:
             type: boolean
           creator:
             type: string
-  belkyc.belkyc.QueryParamsResponse:
+  cosmos.belkyc.QueryParamsResponse:
     type: object
     properties:
       params:

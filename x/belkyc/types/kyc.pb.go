@@ -83,7 +83,7 @@ func (m *Kyc) GetCreator() string {
 }
 
 func init() {
-	proto.RegisterType((*Kyc)(nil), "belkyc.belkyc.Kyc")
+	proto.RegisterType((*Kyc)(nil), "cosmos.belkyc.Kyc")
 }
 
 func init() { proto.RegisterFile("belkyc/belkyc/kyc.proto", fileDescriptor_0bd5c61768036078) }

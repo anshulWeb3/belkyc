@@ -1,5 +1,5 @@
 syntax = "proto3";
-package belkyc.belkyc;
+package cosmos.belkyc;
 
 import "gogoproto/gogo.proto";
 

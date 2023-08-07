@@ -3,8 +3,8 @@ syntax = "proto3";
 package cosmos.belkyc;
 
 import "gogoproto/gogo.proto";
-import "belkyc/belkyc/params.proto";
-import "belkyc/belkyc/kyc.proto";
+import "cosmos/belkyc/params.proto";
+import "cosmos/belkyc/kyc.proto";
 
 option go_package = "github.com/anshulWeb3/belkyc/x/belkyc/types";
 

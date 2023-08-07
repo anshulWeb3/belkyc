@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package cosmos.belkyc;
 
-import "belkyc/belkyc/kyc.proto";
+import "cosmos/belkyc/kyc.proto";
 
 option go_package = "github.com/anshulWeb3/belkyc/x/belkyc/types";
 

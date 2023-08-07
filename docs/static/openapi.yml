@@ -4,7 +4,7 @@ info:
   name: ''
   description: ''
 paths:
-  /belkyc/belkyc/kyc:
+  /cosmos/belkyc/kyc:
     get:
       operationId: BelkycBelkycKycAll
       responses:
@@ -129,7 +129,7 @@ paths:
           type: boolean
       tags:
         - Query
-  /belkyc/belkyc/kyc/{address}:
+  /cosmos/belkyc/kyc/{address}:
     get:
       summary: Queries a list of Kyc items.
       operationId: BelkycBelkycKyc
@@ -173,7 +173,7 @@ paths:
           type: string
       tags:
         - Query
-  /belkyc/belkyc/params:
+  /cosmos/belkyc/params:
     get:
       summary: Parameters queries the parameters of the module.
       operationId: BelkycBelkycParams
